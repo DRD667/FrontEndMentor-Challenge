@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 1em;
+            text-align: center;
+            margin-top: auto;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="frame">
+        <div class="container">
+            <div class="card flex">
+                <section class="card-text-content ">
+                    <div>
+                        <h1 class="title">Get
+                            <span class="bold-keyword">insights</span> that help your business grow.
+                        </h1>
+                        <p class="description">
+                            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+                        </p>
+                    </div>
+                    <div class="stats">
+                        <div class="row flex">
+                            <div class="feature">
+                                <h2>10k+ </h2>
+                                <p>companies</p>
+                            </div>
+                            <div class="feature">
+                                <h2>314 </h2>
+                                <p>templates</p>
+                            </div>
+                            <div class="feature">
+                                <h2>12M+ </h2>
+                                <p>queries</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-image">
+                    <div class="bg">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images\image-header-desktop.jpg">
+                            <source media="(min-width: 480px)" srcset="images\image-header-mobile.jpg">
+                            <img src="images\image-header-mobile.jpg">
+                        </picture>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://codepen.io/Shay-DRD">DRD</a>.
+    </div>
+</body>
+
+</html>
