@@ -79,9 +79,10 @@ h1.title {
 .card-text-content {
     display: flex;
     flex-direction: column;
+    gap: 1em;
     justify-content: space-between;
-    flex-basis: 10%;
-    padding: 2.5em;
+    padding: 2.5em 5em 2em 2.5em;
+    flex: 1;
 }
 
 .card-text-content>div:nth-child(1) {
@@ -90,14 +91,10 @@ h1.title {
     justify-content: space-around;
 }
 
-.description {
-    margin: 0.7em 0;
-    font-size: 1.1rem;
-    font-weight: lighter;
-}
-
 .card-image {
     overflow: hidden;
+    flex: 1;
+    min-width: 35vw;
 }
 
 .bold-keyword {
@@ -106,7 +103,11 @@ h1.title {
 
 .card-text-content .description {
     line-height: 1.6;
+    margin: 1em 0;
+    font-size: 0.8em;
+    font-weight: lighter;
     color: hsla(0, 0%, 100%, 0.75);
+    flex: 1;
 }
 
 .feature p {
